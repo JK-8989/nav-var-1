@@ -1,7 +1,7 @@
 :root {
   --text-color: #ddd;
-  --accent-color: rgba(0, 208, 255, 0.8);
-  --accent-hover: rgba(0, 208, 255, 0.5);
+  --accent-color: rgb(0, 225, 255);
+  --accent-hover: rgba(0, 225, 255, 0.5);
   --background:rgba(0, 0, 0, 0.8);
 }
 body {
@@ -12,8 +12,7 @@ h1 {
   margin: 0;
   padding-left: 15px;
   letter-spacing: 3px;
-  font-size: 1.5em;
-  padding-bottom: 10px;
+  font-size: 1.3em;
 }
 i {
   color: var(--text-color);
@@ -25,16 +24,15 @@ li {
   list-style: none;
 }
 #logo {
-  font-size: 2em;
+  font-size: 1.6em;
   color: var(--accent-color);
-  padding-bottom: 10px;
 }
 .navbar__container {
   background: var(--background);
   color: var(--text-color);
   display: flex;
   justify-content: space-between;
-  padding: 0 20px 0 20px;
+  padding: 0 20px 15px 20px;
 }
 .menu {
   text-decoration: none;
@@ -47,10 +45,11 @@ li {
 .navbar__menu {
   display: flex;
   align-items: center;
+  padding: 0;
 }
 .navbar__menu li {
   margin: 0;
-  padding: 8px ;
+  padding: 8px 0;
 }
 .navbar__menu li:hover {
   background: var(--accent-hover);
@@ -61,9 +60,10 @@ li .menu {
 }
 .navbar__icons {
   display: flex;
+  padding-left: 0;
 }
 .navbar__icons li {
-  padding: 8px;
+  padding: 10px;
 }
 #hamburger {
   display: none;
