@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+body {
+  color: beige;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(60, 60, 60);
+  padding: 5px;
+}
+.navbar-logo {
+  display: flex;
+  margin-left: 15px;
+}
+#logo {
+  padding-right: 5px;
+}
+h1 {
+  font-size: 1.5em;
+}
+.navbar__menu {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  padding: 8px;
+  color: beige;
+}
+.navbar__icons {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+.fa-brands {
+  padding: 5px;
+}
+#logo {
+  font-size: 2em;
+}
